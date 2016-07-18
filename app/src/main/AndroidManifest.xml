@@ -14,15 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Estacionamiento" >
+
+        </activity>
+        <activity android:name=".HoraActivity" >
+        </activity>
+        <activity android:name=".EcuacionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".Estacionamiento" />
-        <activity android:name=".HoraActivity" />
-        <activity android:name=".EcuacionActivity"></activity>
     </application>
 
 </manifest>

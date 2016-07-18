@@ -19,6 +19,7 @@ public class EcuacionActivity extends AppCompatActivity {
 
         edtA = (EditText) findViewById(R.id.edtA);
         edtB = (EditText) findViewById(R.id.edtB);
+        edtX = (EditText) findViewById(R.id.edtX);
         btnCalcular = (Button) findViewById(R.id.btnCalcular);
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
